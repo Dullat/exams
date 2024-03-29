@@ -15,16 +15,15 @@ Types define the blueprint for objects, specifying their properties, methods, an
 
 ### Structs:
 
-- Structs are lightweight, value types used to represent small, simple data structures.
-- They are typically used for small, immutable data types.
-- Structs are stored on the stack and are often used for performance-critical scenarios.
-- Unlike classes, structs do not support inheritance and are passed by value.
+ - "struct," is a composite data type that groups together a collection of variables under a single name.
+ - Structures allow you to create custom data types composed of multiple fields, each potentially of a different data type.
 
 ### Interfaces:
 
-- Interfaces define a contract specifying a set of members (methods, properties, events) that implementing classes must provide.
-- They enable polymorphism and abstraction by allowing multiple classes to implement the same interface.
-- Interfaces cannot contain implementation; they only define the structure that implementing classes must adhere to.
+- An interface looks like a class but has no implementation.
+- it contains only declarations of events, indexers, methods, and/or properties.
+- The reason interfaces only provide declarations is that they are inherited by structs and classes, which must provide an implementation for each interface member declared.
+- Interfaces cannot contain implementation; they only define the structure that implementing classes must be having implementation of properties to.
 - Classes can implement multiple interfaces.
 
 ### Enums (Enumerations):
