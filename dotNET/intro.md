@@ -41,7 +41,8 @@ There are following components of .NET Framework:
 
 #### CTS (Common Type System)
 
-**Common Type System (CTS):** It specifies a standard that represents what type of data and value can be defined and managed at runtime. A CTS ensures that programming data defined in various languages should interact with each other to share information. It enables cross-language integration and provides an object-oriented model to help implement many programming languages. It defines rules that languages must follow, which helps ensure that objects written in different languages can interact with each other.
+**Common Type System (CTS):** It specifies a standard that represents what type of data and value can be defined and managed at runtime. which helps ensure that objects written in different languages can interact with each other.
+- many languages has differen data types.one language's data type cant not interact with other language's data type. to make interaction possible CTS converts all data types into CLR's data type at compile time. and this common datatypes can easily interact with each other and can share information
 
 #### CLS (Common Language Specification)
 
