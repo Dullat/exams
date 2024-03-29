@@ -45,7 +45,9 @@ There are following components of .NET Framework:
 
 #### CLS (Common Language Specification)
 
-**Common Language Specification (CLS):** It is a subset of the common type system (CTS) that defines a set of rules and regulations which should be followed by every language that comes under the .NET framework. In other words, a CLS language should be cross-language integration or interoperability. For example, in C# and VB.NET language, the C# language terminates each statement with a semicolon, whereas in VB.NET it does not end with a semicolon. When these statements execute in .NET Framework, it provides a common platform to interact and share information with each other.
+**Common Language Specification (CLS):** It is a subset of the common type system (CTS) that defines a set of rules and regulations which should be followed by every language that comes under the .NET framework.
+- it specify its own language specification (syntactical rules) which are common to all .NET Supported Programming Languages. At the time of compilation, every language compiler should follow these and generate the MSIL code. it provides a common platform to interact and share information with each other.
+(One programming language’s syntactical rules (language specification) cannot be understood by other programming languages. But, there can be situations where we need to communicate between two different programming languages)
 
 #### .NET Binaries
 
